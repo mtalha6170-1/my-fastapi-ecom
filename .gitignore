@@ -1,0 +1,4 @@
+__pycache__/
+ecom.db
+venv/
+.env
