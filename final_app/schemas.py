@@ -15,11 +15,7 @@ class ProductCreate(ProductBase):
 class Product(ProductBase):
     id: int
 
-class CategoryCreate(BaseModel):
-    name: str
 
-class Category(CategoryCreate):
-    id:int
 
     class Config:
         from_attributes = True

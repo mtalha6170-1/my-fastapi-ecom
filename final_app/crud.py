@@ -1,4 +1,4 @@
-from sqlalchemy.orm import session 
+from sqlalchemy.orm import Session 
 from .import models, schemas
 
 
